@@ -57,9 +57,9 @@ cd ai-court-scheduling-system
 cd backend
 npm install
 
-# Create your environment file from the template
+### Create your environment file from the template
 cp .env.example .env
-# Edit .env with your PostgreSQL credentials and a strong JWT_SECRET
+### Edit .env with your PostgreSQL credentials and a strong JWT_SECRET
 
 
 ### 3. Database Setup
@@ -79,9 +79,9 @@ npm run seed
 cd ../frontend
 npm install
 
-# Create your environment file from the template
+### Create your environment file from the template
 cp .env.example .env
-# Edit .env if your backend runs on a different port
+### Edit .env if your backend runs on a different port
 
 
 ### 5. Run the Application
@@ -90,14 +90,14 @@ cp .env.example .env
 
 cd backend
 node server.js
-# Server runs on http://localhost:5000
+### Server runs on http://localhost:5000
 
 
 **Terminal 2 — Frontend:**
 
 cd frontend
 npm run dev
-# App runs on http://localhost:5173
+### App runs on http://localhost:5173
 
 
 ### 6. Docker (Alternative)
