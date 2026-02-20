@@ -130,35 +130,6 @@ docker-compose up --build
 
 ---
 
-## 📂 Project Structure
-
-
-ai-court-scheduling-system/
-├── backend/
-│   ├── config/          # Database configuration
-│   ├── middleware/       # Auth & validation middleware
-│   ├── models/          # Sequelize models (User, Case, Hearing)
-│   ├── routes/          # API routes (auth, cases, schedule, dashboard)
-│   ├── seeders/         # Demo data seeder
-│   ├── services/        # AI services (priority, prediction, ADR, blockchain)
-│   ├── .env.example     # Environment variable template
-│   └── server.js        # Express app entry point
-├── frontend/
-│   ├── src/
-│   │   ├── components/  # Reusable UI components
-│   │   ├── contexts/    # React context (Auth)
-│   │   ├── pages/       # Dashboard pages per role
-│   │   └── utils/       # API client, helpers
-│   ├── .env.example     # Environment variable template
-│   └── index.html
-├── docker-compose.yml
-├── demo-data.sql
-├── HACKATHON_PRESENTATION.md   # Full project breakdown for evaluators
-└── README.md
-
-
----
-
 ## 🤖 How the AI Priority Score Works
 
 
